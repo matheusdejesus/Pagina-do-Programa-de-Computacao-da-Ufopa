@@ -1,0 +1,174 @@
+body{
+    background-color: white;
+}
+
+nav a {
+    color: #19413a;
+}
+nav{
+  margin-top: 5px;
+    background-color: #9BB93B;
+}
+
+nav li {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-radius: 10px;
+}
+nav li:hover {
+    color: white;
+}
+
+.nav-link:hover{
+    color: white;
+}
+
+main{
+  color: #19413a;
+    background-color: rgb(230, 244, 187);
+    box-shadow: 0px 5px 7px 6px rgb(213, 213, 211);
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    align-items: center;
+    margin: auto;
+    max-width: 900px;
+    min-width: 300px;
+    border-radius: 5px;
+    
+}
+
+article p {
+    text-align: justify;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 15px;
+}
+
+article h1 {
+    font-size:28px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-weight: bolder;
+    padding-bottom: 20px;
+}
+
+.img-fluid{
+    border-radius: 10px;
+    margin-left: 60px;
+    width: 70%;
+}
+
+.img-fluid {
+    transition: transform 0.3s;
+  }
+
+  /* Quando o cursor passa por cima da imagem, ela fica um pouco maior */
+  .img-fluid:hover {
+    transform: scale(1.1);
+  }
+
+  .BCC {
+    font-size: 15px;
+    text-align: center;
+    font-weight: normal;
+  }
+  .BSI {
+    font-size: 15px;
+    text-align: center;
+    font-weight: normal;
+  }
+
+  .Instituições-Parceiras{
+    padding-top: 25px;
+
+  }
+  .container {
+    text-decoration: none;
+
+  }
+  div a {
+    color: #19413a;
+  }
+  div a:hover {
+    color: #19413a;
+  }
+  .SBC {
+    padding-left: 70px;
+    font-size:bolder;
+    margin-top: 20px;
+  }
+
+  .img-SBC{
+    margin-left: 120px;
+    width: 25%;
+  }
+
+  .img-CAPES {
+    width: 25%;
+  }
+
+  .img-fluid2{
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-left: 5px;
+    width: 70%;
+}
+
+div h2{
+    margin-top: 20px;
+    font-size:18px;
+    font-weight:bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.paragrafo {
+  margin-top: 20px;
+}
+
+
+.carousel-inner {
+    width: 97%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 14px;
+    border-radius: 20px;
+}
+
+footer {
+    color: white;
+    background-color: #19413a;
+    text-align: center;
+    padding: 5px;
+    font-size: 1.0em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size:12px;
+}
+
+footer p {
+  padding-top: 15px;
+}
+
+header {
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 25px;
+  text-align: center;
+  background-color: #19413a;
+  font-weight: bolder;
+}
+header img {
+  border-radius: 10px;
+}
+
+header a.navbar-link {
+  color: white; /* Define a cor do texto como a cor padrão do link */
+  text-decoration: none; /* Remove o sublinhado padrão do link */
+}
+
+header a.navbar-link:hover {
+  color: white; /* Mantém a cor do texto ao passar o cursor sobre o link */
+}
+
+.dropdown-item:hover {
+  background-color: rgb(237, 236, 236);
+}
+  
